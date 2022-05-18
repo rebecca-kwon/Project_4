@@ -1,0 +1,27 @@
+# Project 4 Proposal 
+
+## DataSets
+
+https://www.kaggle.com/competitions/home-credit-default-risk/data
+HomeCredit_columns_description.csv
+POS_CASH_balance.csv
+application_test.csv
+application_train.csv
+bureau.csv
+bureau_balance.csv
+credit_card_balance.csv
+installments_payments.csv
+previous_application.csv
+sample_submission.csv
+
+## Objective
+
+Using the application train and test datasets, predict on if loans will be paid off or defaulted. Additionally, we will explore predictions for credit card balances.  
+
+## Group Members 
+
+- Angele Yazbec
+- Rebecca Kwon
+- Turgut Ozsirkinti
+- Neil Tipton
+- Daniel Garza 
