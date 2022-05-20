@@ -3,8 +3,7 @@
 ## DataSets
 
 https://www.kaggle.com/competitions/home-credit-default-risk/data
-- HomeCredit_columns_description.csv
-- POS_CASH_balance.csv
+
 - application_test.csv
 - application_train.csv
 - bureau.csv
@@ -13,12 +12,16 @@ https://www.kaggle.com/competitions/home-credit-default-risk/data
 - installments_payments.csv
 - previous_application.csv
 - sample_submission.csv
+- HomeCredit_columns_description.csv
+- POS_CASH_balance.csv
 
 ## Objective
 
 Using the application train and test datasets, we will predict on credit risk. Additionally, we will explore predictions for loan  balances.  
 Run model on whether or not a loan is defaulted -- What factors help predict this outcome? 
 Which factors predict balances on the loan 
+
+Using provided train/test data vs creating own train,test,split data 
 
 ### Machine Learning Tools: 
 - K-Nearest Neighbors
@@ -40,8 +43,8 @@ Which factors predict balances on the loan
 
 ## Group Members 
 
-- Angele Yazbec
-- Rebecca Kwon
-- Turgut Ozsirkinti
-- Neil Tipton
-- Daniel Garza 
+- Angele Yazbec: ML & DL
+- Rebecca Kwon: tableau, presentation 
+- Turgut Ozsirkinti: deployment, html 
+- Neil Tipton: ML & DL
+- Daniel Garza: deployment, html  
