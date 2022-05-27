@@ -36,22 +36,22 @@ Overall, each machine learning method produced similar accuracy scores.
 
 ## Machine Learning Tools used:
 
-Logistic Regression
-Deep Learning with Neural Network Optimizers
-RandomForest Classifier 
-Simple Imputation 
+- Logistic Regression
+- Deep Learning with Neural Network Optimizers
+- RandomForest Classifier 
+- Simple Imputation 
 
 
 ## Tools used
 
-Machine Learning
+- Machine Learning
   - Static images
-Python Pandas
-Python Matplotlib
-MongoDB (&MongoDB Cloud)
-Tableau
-HTML - Deployed on GitHub
-Javascript
+- Python Pandas
+- Python Matplotlib
+- MongoDB (&MongoDB Cloud)
+- Tableau
+- HTML - Deployed on GitHub
+- Javascript
 
 
 ## Group Members 
