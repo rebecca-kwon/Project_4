@@ -79,13 +79,52 @@
         </div>
     </nav>
     <br>
-    <br>
-    <br>
+
+    <div class="container">
+    
+      <div class="col-sm-1"></div>
+      
+      <div class="col-sm-10">
+        <h5>Objective</h5>
+        <p>Using the application train dataset, we used machine learning models to predict on loan defaults.</p><br>
+        <h5>Method</h5>
+        <p>The raw data was visualized using Tableau to show all column names, interesting columns and their ranges, overall look at the number of defaulted loans, as well as multiple outcomes based on different factors such as occupation, housing type, and family type.</p>
+        <p>Next, data clean up was performed to remove unnecessary data as well as to perform imputation on missing data fields. Colmuns that were not relevant to analysis (e.g. whether or not a document was provided during the application process) were dropped from the data before proceeding to checking and removing any outliers. One-hot coding was implemented for categorical values and a simple imputer was used to impute for missing values within the dataset. Dimensionality reduction was performed using the Random Forest Classifier model. With each model, the data were split into training sets and testing sets, and the data were scaled using standard scaler.</p>
+        <p>From the Random Forest Classifier model, a horizontal plot of column names were ranked on importance to the dataset. The outcome of the RFC model was a training score of 1.0 and a testing score of 0.918.</p>
+        <p>Next, using a supervised learning method, Logistic Regression Classifier, the model was fit on the data to produce a training data score of 92% and a testing score of 92%.</p><br>
+        <img src="/static/images/confusion_matrix_and_classification_report.png" alt="">
+        <p>Because the dataset has over 100K samples, the SGD (Stochastic Gradient Descent) Classifier was used to produce the following results:</p>
+        <img src="/static/images/sgd_classifier.png" alt=""><br><br>
+        <p>Finally, a deep learning model with neural network optimizers was used to create an outcome of a loss of 27% and an accuracy of 92%. The data was split and scaled. Then a new sequential model was created with hyperparameter options. The Keras-Tuner Library was used to create the best hyperparameter options. A total of 4 layers with the tanh activation method was used to optimize the results. Each had 16 units. The last layer consisted of 1 unit using the sigmoid activation method.</p>
+        <p>Overall, each machine learning method produced similar accuracy scores.</p><br>
+        <h5>Machine Learning Tools used</h5>
+        <ul>
+          <li>Simple Imputation</li>
+          <li>RandomForest Classifier</li>
+          <li>SGD Classifier</li>
+          <li>Deep Learning with Neural Network Optimizers</li>
+        </ul><br>
+        <h5>Tools used</h5>
+        <ul>
+          <li>Machine Learning</li>
+            <ul><li>Scikit-Learn</li></ul>
+          <li>Python Pandas</li>
+          <li>Python Matplotlib</li>
+          <li>MongoDB (&MongoDB Atlas)</li>
+          <li>Tableau</li>
+          <li>HTML - Deployed on GitHub</li>
+          <li>JavaScript</li>
+        </ul><br>
+        <h5>Group Members</h5>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+
     <div class="container">
       <div class="row">
         <div class="col-sm-2">
           <div class="card" style="width: auto; height: auto;">
-            <img src="static/images/angele.jpeg" alt="Angele" style="width:100%">
+            <img class="imgframe" src="static/images/angele.jpeg" alt="Angele" style="width:100%">
             <div class="container">
               <h2>Angele Yazbec</h2>
               <p class="title">Data</p>
@@ -98,11 +137,10 @@
             </div>
           </div>
         </div>
-
         
         <div class="col-sm-2">
           <div class="card" style="width: auto; height: auto;">
-            <img src="static/images/neil.jpeg" alt="Neil" style="width:100%">
+            <img class="imgframe" src="static/images/neil.jpeg" alt="Neil" style="width:100%">
             <div class="container">
               <h2>Neil Tipton</h2>
               <p class="title">Data</p>
@@ -114,11 +152,10 @@
             </div>
           </div>
         </div>
-
         
         <div class="col-sm-2">
           <div class="card" style="width: auto; height: auto;">
-            <img src="static/images/rebecca.jpeg" alt="Rebecca" style="width:100%">
+            <img class="imgframe" src="static/images/rebecca.jpeg" alt="Rebecca" style="width:100%">
             <div class="container">
               <h2>Rebecca Kwon</h2>
               <p class="title">Tableau</p>
@@ -133,7 +170,7 @@
       
         <div class="col-sm-2">
           <div class="card" style="width: auto; height: auto;">
-            <img src="static/images/daniel.jpeg" alt="Daniel" style="width:100%">
+            <img class="imgframe" src="static/images/daniel.jpeg" alt="Daniel" style="width:100%">
             <div class="container">
               <h2>Daniel Garza</h2>
               <p class="title">HTML</p>
@@ -148,7 +185,7 @@
       
         <div class="col-sm-2">
           <div class="card" style="width: auto; height: auto;">
-            <img src="static/images/turgut.jpeg" alt="Turgut" style="width:100%">
+            <img class="imgframe" src="static/images/turgut.jpeg" alt="Turgut" style="width:100%">
             <div class="container">
               <h2>Turgut Ozsirkinti</h2>
               <p class="title">HTML</p>
@@ -162,8 +199,7 @@
         </div>
       </div>
     </div>
-  <br>
-  <!-- The div that holds our map -->
+  <br><br><br>
 
   <div id="index-id"></div>
   
